@@ -17,6 +17,16 @@ Desafios Técnicos e Soluções de Engenharia
 **Solução:**
 * Desenvolvi e registrei uma **UDF (User Defined Function)** em Python para processamento de texto customizado.
 * Inseri uma camada de tratamento de exceções para converter valores `NULL` em `0`, prevenindo interrupções no pipeline de dados.
+
+ ## 📊 Sobre o Dataset
+O arquivo principal (`Filmes e séries da Netflix.html`) contém o catálogo bruto. Devido ao volume de dados (>8.000 títulos), o GitHub desabilita a visualização direta. 
+
+**Estrutura dos dados processados:**
+| Column | Description |
+| :--- | :--- |
+| `director` | Nome do diretor do título |
+| `cast` | Lista de elenco (antes do processamento de explosão) |
+| `countVowels` | Métrica gerada via UDF personalizada |
  
 # Ferramentas
 * **Cloud & Big Data:** Databricks Community Edition.
